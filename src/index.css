@@ -1,1 +1,5 @@
-@import "src/styles/tailwind.css";
+@import "/src/styles/tailwind.css";
+
+html {
+  font-size: 62.5%;
+}
