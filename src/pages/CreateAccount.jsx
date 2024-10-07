@@ -1,8 +1,12 @@
 import logo from "../assets/logo.svg";
+import "../assets/fonts.css";
 
 function CreateAccount() {
   return (
-    <main className="flex items-center bg-gray-100 p-8 gap-40">
+    <main
+      className="flex items-center bg-gray-100 p-8 gap-40"
+      style={{ fontFamily: "Filson Pro", fontWeight: "400" }}
+    >
       <section className="flex flex-col items-start justify-between flex-auto w-1/2 min-h-screen bg-blue-200 rounded-4 p-12">
         <img src={logo} alt="inpost logo" />
 
@@ -17,7 +21,10 @@ function CreateAccount() {
       </section>
 
       <section className="flex-auto w-1/2 flex flex-col items-start justify-center gap-10">
-        <h3 className="flex flex-col text-32 leading-none">
+        <h3
+          className="flex flex-col text-32 leading-none"
+          style={{ fontFamily: "Filson Pro", fontWeight: "500" }}
+        >
           <span>Create a free account</span>
           <span>to explore a consistent</span>
           <span>Linkedin brand</span>
@@ -26,6 +33,7 @@ function CreateAccount() {
         <form
           method="post"
           className="flex flex-col items-stretch justify-center text-gray-600"
+          style={{ fontFamily: "Filson Pro", fontWeight: "400" }}
         >
           <label htmlFor="email" className="text-16">
             Email
