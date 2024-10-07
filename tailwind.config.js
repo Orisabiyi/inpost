@@ -10,6 +10,7 @@ module.exports = {
         "gray-600": "#2B2B2B",
         "blue-200": "#CDDFFB",
         "blue-400": "#055FE9",
+        "blue-600": "#055FE9",
       },
       borderRadius: {
         4: "4rem",

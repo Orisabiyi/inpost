@@ -17,6 +17,12 @@ function CreateAccount() {
             <span>Content</span>
             <span>made for</span>
             <span>you.</span>
+            <div className="flex items-center justify-center gap-4 mt-10">
+              <span className="bg-blue-600 w-36 h-6 rounded-full"></span>
+              <span className="bg-white w-6 h-6 rounded-full"></span>
+              <span className="bg-white w-6 h-6 rounded-full"></span>
+              <span className="bg-white w-6 h-6 rounded-full"></span>
+            </div>
           </h1>
         </div>
       </section>
