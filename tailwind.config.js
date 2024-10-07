@@ -5,10 +5,15 @@ module.exports = {
     extend: {
       colors: {
         "gray-100": "#FDFDFD",
+        "gray-600": "#2B2B2B",
         "blue-200": "#CDDFFB",
       },
       borderRadius: {
         4: "4rem",
+      },
+      fontSize: {
+        16: "1.6rem",
+        60: "6rem",
       },
     },
   },
