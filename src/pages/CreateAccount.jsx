@@ -2,8 +2,8 @@ import logo from "../assets/logo.svg";
 
 function CreateAccount() {
   return (
-    <main className="flex items-center bg-gray-100 min-h-screen">
-      <section className="flex flex-col items-start justify-between">
+    <main className="flex items-center bg-gray-100 p-8">
+      <section className="flex flex-col items-start justify-between flex-auto w-1/2 min-h-screen">
         <img src={logo} alt="inpost logo" />
 
         <div>
@@ -16,7 +16,7 @@ function CreateAccount() {
         </div>
       </section>
 
-      <section>
+      <section className="flex-auto w-1/2">
         <form method="post">u</form>
       </section>
     </main>
