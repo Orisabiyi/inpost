@@ -4,7 +4,7 @@ import "../assets/fonts.css";
 function CreateAccount() {
   return (
     <main
-      className="flex items-center bg-gray-100 p-8 gap-40"
+      className="container mx-auto flex items-center bg-gray-100 p-8 gap-40"
       style={{ fontFamily: "Filson Pro", fontWeight: "400" }}
     >
       <section className="flex flex-col items-start justify-between flex-auto w-1/2 min-h-screen bg-blue-200 rounded-4 p-12">
@@ -62,6 +62,12 @@ function CreateAccount() {
             Create an account
           </button>
         </form>
+
+        <ul className="flex items-center gap-4 text-16 w-[45rem] text-gray-400">
+          <li className="w-1/3 h-1 bg-gray-400"></li>
+          <li>Or continue with</li>
+          <li className="w-1/3 h-1 bg-gray-400"></li>
+        </ul>
       </section>
     </main>
   );
