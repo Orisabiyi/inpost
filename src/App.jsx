@@ -1,15 +1,15 @@
 import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
-import { Router } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import CreateAccount from "./pages/CreateAccount";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<CreateAccount />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 

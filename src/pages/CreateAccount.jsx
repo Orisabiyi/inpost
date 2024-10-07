@@ -1,5 +1,5 @@
 function CreateAccount() {
-  return <div></div>;
+  return <div>Hello World</div>;
 }
 
 export default CreateAccount;
