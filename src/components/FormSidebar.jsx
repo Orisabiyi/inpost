@@ -1,6 +1,6 @@
 import logo from "../assets/logo.svg";
 
-function FormSidebar() {
+function FormSidebar({ children }) {
   return (
     <section className="flex flex-col items-start justify-between flex-auto w-1/2 min-h-screen bg-blue-200 rounded-4 p-12">
       <img src={logo} alt="inpost company logo" />
@@ -8,9 +8,8 @@ function FormSidebar() {
       <div className="text-gray-600">
         <p className="text-16 mb-4">Step 1/4</p>
         <h1 className="flex flex-col items-start text-60 leading-none">
-          <span>Content</span>
-          <span>made for</span>
-          <span>you.</span>
+          {children}
+
           <div className="flex items-center justify-center gap-4 mt-10">
             <span className="bg-blue-600 w-36 h-6 rounded-full"></span>
             <span className="bg-white w-6 h-6 rounded-full"></span>

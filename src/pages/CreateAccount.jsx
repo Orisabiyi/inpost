@@ -8,7 +8,13 @@ function CreateAccount() {
       className="flex items-center bg-gray-100 p-8 gap-40 2xl:container 2xl:mx-auto"
       style={{ fontFamily: "Filson Pro", fontWeight: "400" }}
     >
-      <FormSidebar />
+      <FormSidebar>
+        <>
+          <span>Content</span>
+          <span>made for</span>
+          <span>you.</span>
+        </>
+      </FormSidebar>
 
       <section className="flex-auto w-1/2 flex flex-col items-start justify-center gap-10">
         <h3
