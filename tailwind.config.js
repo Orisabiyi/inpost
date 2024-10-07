@@ -2,8 +2,11 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "gray-100": "#FDFDFD",
+      },
+    },
   },
   plugins: [],
-}
-
+};
