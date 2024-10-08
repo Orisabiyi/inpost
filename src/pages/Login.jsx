@@ -7,6 +7,12 @@ import { useState } from "react";
 function Login() {
   const [mail, setMail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState(false);
+
+  const handleSubmit = function (e) {
+    e.preventDefault();
+    if (!mail) setError(true);
+  };
 
   return (
     <main
@@ -34,6 +40,7 @@ function Login() {
           method="post"
           className="flex flex-col items-stretch justify-center text-gray-600 w-11/12 mx-auto"
           style={{ fontFamily: "Filson Pro", fontWeight: "400" }}
+          onSubmit={handleSubmit}
         >
           <label htmlFor="email" className="text-16">
             Email
@@ -46,9 +53,11 @@ function Login() {
             value={mail}
             onChange={(e) => setMail(e.target.value)}
           />
-          <p className="text-red-warning text-12 mb-6">
-            This email address is not in our system, please create an account
-          </p>
+          {error && (
+            <p className="text-red-warning text-12 mb-6">
+              This email address is not in our system, please create an account
+            </p>
+          )}
 
           <label htmlFor="password" className="text-16">
             Password
