@@ -3,3 +3,11 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  @apply 2xl:h-screen 2xl:flex 2xl:items-center 2xl:justify-center;
+}
+
+#root {
+  @apply 2xl:w-full;
+}

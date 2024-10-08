@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 
 function FormSidebar({ children }) {
   return (
-    <section className="flex flex-col items-start justify-between flex-auto w-1/2 min-h-screen bg-blue-200 rounded-4 p-12">
+    <section className="flex flex-col items-start justify-between flex-auto w-1/2 h-850 bg-blue-200 rounded-4 p-12">
       <img src={logo} alt="inpost company logo" />
 
       <div className="text-gray-600">
