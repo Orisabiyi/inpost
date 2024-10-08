@@ -1,4 +1,9 @@
 import logo from "../assets/logo.svg";
+import propTypes from "prop-types";
+
+FormSidebar.propTypes = {
+  children: propTypes.node.isRequired,
+};
 
 function FormSidebar({ children }) {
   return (
