@@ -12,6 +12,7 @@ function Login() {
   const handleSubmit = function (e) {
     e.preventDefault();
     if (!mail) setError(true);
+    setTimeout(() => setError(false), 4000);
   };
 
   return (
