@@ -92,7 +92,7 @@ function Login() {
           </button>
         </ul>
 
-        <p className="text-16 w-11/12 mx-auto text-center">
+        <p className="text-16 w-11/12 mx-auto text-center mt-8">
           <Link to="/">
             New to inpost?{" "}
             <span className="font-semibold">Create an account</span>
