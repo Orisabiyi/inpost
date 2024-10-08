@@ -11,11 +11,13 @@ module.exports = {
         "blue-200": "#CDDFFB",
         "blue-400": "#055FE9",
         "blue-600": "#055FE9",
+        "red-warning": "#960000",
       },
       borderRadius: {
         4: "4rem",
       },
       fontSize: {
+        12: "1.2rem",
         16: "1.6rem",
         32: "3.2rem",
         60: "6rem",

@@ -2,8 +2,12 @@ import linkedin from "../assets/linkedin.svg";
 import "../assets/fonts.css";
 import FormSidebar from "../components/FormSidebar";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function Login() {
+  const [mail, setMail] = useState("");
+  const [password, setPassword] = useState("");
+
   return (
     <main
       className="flex items-stretch bg-gray-100 p-8 2xl:container 2xl:mx-auto"
@@ -38,8 +42,13 @@ function Login() {
             type="email"
             id="email"
             placeholder="Username@example.com"
-            className="border-2 w-full bg-gray-200 rounded-full text-16 py-4 px-6 mt-3 mb-6 outline-none"
+            className="border-2 w-full bg-gray-200 rounded-full text-16 py-4 px-6 mt-3 mb-4 outline-none"
+            value={mail}
+            onChange={(e) => setMail(e.target.value)}
           />
+          <p className="text-red-warning text-12 mb-6">
+            This email address is not in our system, please create an account
+          </p>
 
           <label htmlFor="password" className="text-16">
             Password
@@ -49,6 +58,8 @@ function Login() {
             id="password"
             placeholder="***************"
             className="border-2 w-full bg-gray-200 rounded-full text-16 py-4 px-6 mt-3 mb-6 outline-none"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
           />
 
           <button
