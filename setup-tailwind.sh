@@ -20,8 +20,6 @@ echo "@tailwind base;
 @tailwind components;
 @tailwind utilities;" > src/styles/tailwind.css
 
-# Step 5: Update package.json to include a build script
-npx json -I -f package.json -e 'this.scripts.build="tailwindcss build src/styles/tailwind.css -o src/styles/output.css"'
 
 # Step 6: Import Tailwind CSS in the main CSS file (e.g., index.css)
 echo "@import 'src/styles/tailwind.css';" >> src/index.css
