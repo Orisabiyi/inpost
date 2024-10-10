@@ -1,5 +1,6 @@
 import FormSidebar from "../components/FormSidebar";
 import Main from "../components/Main";
+import Section from "../components/Section";
 
 function ValidateScreen() {
   return (
@@ -12,7 +13,7 @@ function ValidateScreen() {
         </>
       </FormSidebar>
 
-      <section></section>
+      <Section></Section>
     </Main>
   );
 }

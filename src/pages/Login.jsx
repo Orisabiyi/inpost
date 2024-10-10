@@ -4,6 +4,7 @@ import FormSidebar from "../components/FormSidebar";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Main from "../components/Main";
+import Section from "../components/Section";
 
 function Login() {
   const [mail, setMail] = useState("");
@@ -26,7 +27,7 @@ function Login() {
         </>
       </FormSidebar>
 
-      <section className="flex-auto flex flex-col items-stretch justify-center self-center gap-10 w-1/2 px-12">
+      <Section>
         <h3
           className="flex flex-col text-32 leading-none translate-x-8"
           style={{ fontFamily: "Filson Pro", fontWeight: "500" }}
@@ -117,7 +118,7 @@ function Login() {
             <span className="font-semibold">Create an account</span>
           </Link>
         </p>
-      </section>
+      </Section>
     </Main>
   );
 }

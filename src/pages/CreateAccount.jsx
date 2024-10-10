@@ -3,6 +3,7 @@ import "../assets/fonts.css";
 import FormSidebar from "../components/FormSidebar";
 import { Link } from "react-router-dom";
 import Main from "../components/Main";
+import Section from "../components/Section";
 
 function CreateAccount() {
   return (
@@ -15,7 +16,7 @@ function CreateAccount() {
         </>
       </FormSidebar>
 
-      <section className="flex-auto flex flex-col items-stretch justify-center gap-10 w-1/2 px-12">
+      <Section>
         <h3
           className="flex flex-col text-32 leading-none translate-x-8"
           style={{ fontFamily: "Filson Pro", fontWeight: "500" }}
@@ -87,7 +88,7 @@ function CreateAccount() {
             <span className="font-semibold">Login your account</span>
           </Link>
         </p>
-      </section>
+      </Section>
     </Main>
   );
 }
