@@ -3,6 +3,7 @@ import "../assets/fonts.css";
 import FormSidebar from "../components/FormSidebar";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Main from "../components/Main";
 
 function Login() {
   const [mail, setMail] = useState("");
@@ -16,10 +17,7 @@ function Login() {
   };
 
   return (
-    <main
-      className="flex items-stretch bg-gray-100 p-8 2xl:container 2xl:mx-auto"
-      style={{ fontFamily: "Filson Pro", fontWeight: "400" }}
-    >
+    <Main>
       <FormSidebar>
         <>
           <span>Content</span>
@@ -120,7 +118,7 @@ function Login() {
           </Link>
         </p>
       </section>
-    </main>
+    </Main>
   );
 }
 
