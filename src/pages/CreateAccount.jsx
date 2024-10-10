@@ -2,13 +2,11 @@ import linkedin from "../assets/linkedin.svg";
 import "../assets/fonts.css";
 import FormSidebar from "../components/FormSidebar";
 import { Link } from "react-router-dom";
+import Main from "../components/Main";
 
 function CreateAccount() {
   return (
-    <main
-      className="flex items-center bg-gray-100 p-8 2xl:container 2xl:mx-auto"
-      style={{ fontFamily: "Filson Pro", fontWeight: "400" }}
-    >
+    <Main>
       <FormSidebar>
         <>
           <span>Content</span>
@@ -90,7 +88,7 @@ function CreateAccount() {
           </Link>
         </p>
       </section>
-    </main>
+    </Main>
   );
 }
 
