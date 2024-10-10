@@ -8,9 +8,11 @@ function ValidateScreen() {
         <>
           <span>Verify that</span>
           <span>its you for</span>
-          <span>real</span>
+          <span>real😂</span>
         </>
       </FormSidebar>
+
+      <section></section>
     </Main>
   );
 }
