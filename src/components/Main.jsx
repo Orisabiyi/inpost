@@ -1,5 +1,10 @@
 function Main() {
-  return <main></main>;
+  return (
+    <main
+      className="flex items-stretch bg-gray-100 p-8 2xl:container 2xl:mx-auto"
+      style={{ fontFamily: "Filson Pro", fontWeight: "400" }}
+    ></main>
+  );
 }
 
 export default Main;
