@@ -5,6 +5,7 @@ import CreateAccount from "./pages/CreateAccount";
 import Login from "./pages/Login";
 import ValidateScreen from "./pages/ValidateScreen";
 import Connect from "./pages/Connect";
+import AccountCreation from "./pages/AccountCreation";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/validate" element={<ValidateScreen />} />
         <Route path="/connect" element={<Connect />} />
+        <Route path="/account-creation" element={<AccountCreation />} />
       </Routes>
     </BrowserRouter>
   );
