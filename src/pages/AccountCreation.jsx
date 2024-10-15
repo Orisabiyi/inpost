@@ -15,24 +15,29 @@ function AccountCreation() {
       </FormSidebar>
 
       <Section>
-        <figure>
+        <figure className="self-center">
           <img src={createIcon} alt="icon for the creation of account" />
         </figure>
         <h1
-          className="flex flex-col items-center text-32 leading-none"
+          className="flex flex-col items-center text-32 leading-none self-center"
           style={{ fontFamily: "Filson Pro", fontWeight: "500" }}
         >
           <span>Account creation</span>
           <span>completed</span>
         </h1>
 
-        <p>
+        <p className="self-center text-16 text-center w-4/5 text-gray-400">
           We currently only support LinkedIn and X(Twitter) for now, update on
           other platform coming soon.
         </p>
 
-        <button>Proceed to creation</button>
-        <button>Purchase Credit</button>
+        <button className="bg-blue-400 text-16 text-white py-4 rounded-full">
+          Proceed with creation
+        </button>
+
+        <button className="bg-gray-400 text-16 text-white py-4 rounded-full">
+          Purchase Credit
+        </button>
       </Section>
     </Main>
   );
