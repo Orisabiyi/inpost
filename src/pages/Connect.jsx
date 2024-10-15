@@ -1,5 +1,6 @@
 import Main from "../components/Main";
 import Section from "../components/Section";
+import linkedIn from "../assets/linkedin.svg";
 
 function Connect() {
   return (
@@ -23,14 +24,20 @@ function Connect() {
 
         <ul>
           <li>
-            <div></div>
+            <div>
+              <img src={linkedIn} alt="the linkedIn icon" />
+              <button>Connect</button>
+            </div>
 
             <h4>Connect LinkedIn</h4>
             <p>We currently only support LinkedIn and X(Twitter) for now</p>
           </li>
 
           <li>
-            <div></div>
+            <div>
+              <img src={linkedIn} alt="the linkedIn icon" />
+              <button>Connect</button>
+            </div>
 
             <h4>Connect X(Twitter)</h4>
             <p>We currently only support LinkedIn and X(Twitter) for now</p>
