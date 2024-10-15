@@ -29,7 +29,7 @@ function Login() {
 
       <Section>
         <h3
-          className="flex flex-col text-32 leading-none translate-x-8"
+          className="flex flex-col text-32 leading-none"
           style={{ fontFamily: "Filson Pro", fontWeight: "500" }}
         >
           <span>Login to your</span>
@@ -38,7 +38,7 @@ function Login() {
 
         <form
           method="post"
-          className="flex flex-col items-stretch justify-center text-gray-600 w-11/12 mx-auto"
+          className="flex flex-col items-stretch justify-center text-gray-600 w-full"
           style={{ fontFamily: "Filson Pro", fontWeight: "400" }}
           onSubmit={handleSubmit}
         >
@@ -49,7 +49,7 @@ function Login() {
             type="email"
             id="email"
             placeholder="Username@example.com"
-            className="border-2 w-full bg-gray-200 rounded-full text-16 py-4 px-6 mt-3 mb-4 outline-none"
+            className="border-2 bg-gray-200 rounded-full text-16 py-4 px-6 mt-3 mb-4 outline-none"
             value={mail}
             onChange={(e) => setMail(e.target.value)}
           />
@@ -89,13 +89,13 @@ function Login() {
           </ul>
         </form>
 
-        <ul className="flex items-center gap-4 text-16 w-11/12 mx-auto text-gray-400 translate-x-8">
-          <li className="w-1/3 h-[2px] bg-gray-400"></li>
-          <li>Or continue with</li>
-          <li className="w-1/3 h-[2px] bg-gray-400"></li>
+        <ul className="flex items-center gap-1 text-16 w-full text-gray-400">
+          <li className="w-2/6 h-[2px] bg-gray-400"></li>
+          <li className="flex-1 text-center">Or continue with</li>
+          <li className="w-2/6 h-[2px] bg-gray-400"></li>
         </ul>
 
-        <ul className="grid grid-cols-2 gap-8 text-16 w-11/12 mx-auto">
+        <ul className="grid grid-cols-2 gap-8 text-16">
           <button className="flex items-center justify-center gap-4 bg-gray-200 py-5 rounded-full">
             <img src={linkedin} alt="linked icon" className="w-5 h-5 block" />
             <p className="leading-none">LinkedIn</p>
@@ -112,7 +112,7 @@ function Login() {
           </button>
         </ul>
 
-        <p className="text-16 w-11/12 mx-auto text-center mt-8">
+        <p className="text-16 w-full mx-auto text-center mt-8">
           <Link to="/">
             New to inpost?{" "}
             <span className="font-semibold">Create an account</span>
