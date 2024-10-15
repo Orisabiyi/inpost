@@ -14,7 +14,7 @@ function Connect() {
         </>
       </FormSidebar>
 
-      <Section className="self-stretch">
+      <Section className="self-stretch pb-16">
         <h1
           className="flex flex-col text-32 leading-none"
           style={{ fontFamily: "Filson Pro", fontWeight: "500" }}
@@ -59,7 +59,7 @@ function Connect() {
           </li>
         </ul>
 
-        <p className="text-16 text-gray-400 w-3/4">
+        <p className="text-16 text-gray-400 w-3/4 mt-auto">
           We currently only support LinkedIn and X(Twitter) for now, update on
           other platform coming soon
         </p>
