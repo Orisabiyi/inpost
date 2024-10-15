@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import CreateAccount from "./pages/CreateAccount";
 import Login from "./pages/Login";
 import ValidateScreen from "./pages/ValidateScreen";
+import Connect from "./pages/Connect";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<CreateAccount />} />
         <Route path="/login" element={<Login />} />
         <Route path="/validate" element={<ValidateScreen />} />
+        <Route path="/connect" element={<Connect />} />
       </Routes>
     </BrowserRouter>
   );
