@@ -64,7 +64,7 @@ function ValidateScreen() {
             />
           </div>
 
-          <p className="text-center text-gray-300 text-16">
+          <p className="text-left text-gray-300 text-16">
             <b className="text-gray-600">0:45 </b>
             Didn't get the code? <b className="text-gray-400">Resend now</b>
           </p>
