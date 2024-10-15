@@ -1,6 +1,8 @@
-function Section({ children }) {
+function Section({ children, className = "" }) {
   return (
-    <section className="flex-auto flex flex-col items-stretch justify-center self-center gap-10 w-1/2 px-12">
+    <section
+      className={`flex-auto flex flex-col items-stretch justify-center self-center gap-10 w-1/2 px-12 ${children}`}
+    >
       {children}
     </section>
   );
