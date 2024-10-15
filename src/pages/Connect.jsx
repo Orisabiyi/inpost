@@ -14,7 +14,7 @@ function Connect() {
         </>
       </FormSidebar>
 
-      <Section>
+      <Section className="self-stretch">
         <h1
           className="flex flex-col text-32 leading-none"
           style={{ fontFamily: "Filson Pro", fontWeight: "500" }}
