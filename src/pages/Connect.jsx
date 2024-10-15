@@ -18,8 +18,33 @@ function Connect() {
           style={{ fontFamily: "Filson Pro", fontWeight: "500" }}
         >
           <span>Connect your social media</span>
-          <span>accounts to inpost</span>
+          <span>accounts to inpost.</span>
         </h1>
+
+        <ul>
+          <li>
+            <div></div>
+
+            <h4>Connect LinkedIn</h4>
+            <p>We currently only support LinkedIn and X(Twitter) for now</p>
+          </li>
+
+          <li>
+            <div></div>
+
+            <h4>Connect X(Twitter)</h4>
+            <p>We currently only support LinkedIn and X(Twitter) for now</p>
+          </li>
+
+          <li>
+            <button>Proceed</button>
+          </li>
+        </ul>
+
+        <p>
+          We currently only support LinkedIn and X(Twitter) for now, update on
+          other platform coming soon
+        </p>
       </Section>
     </Main>
   );
