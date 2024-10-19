@@ -22,9 +22,21 @@ function CreditForm() {
           <span>plan now</span>
         </h1>
 
-        <form action="">
+        <form action="" className="flex flex-col text-14">
           <label htmlFor="email">Email</label>
-          <input type="email" id="email" className="" />
+          <input
+            type="email"
+            id="email"
+            placeholder="Username@example.com"
+            className="bg-white outline-none"
+          />
+          <label htmlFor="card-details">Card details</label>
+          <input
+            type="number"
+            id="card-details"
+            placeholder="1234 5678 9012 3456"
+            className="bg-white outline-none"
+          />
         </form>
       </Section>
     </Main>
